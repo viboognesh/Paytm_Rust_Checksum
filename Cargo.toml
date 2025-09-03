@@ -1,0 +1,21 @@
+[package]
+name = "paytmchecksum"
+version = "0.1.0"
+edition = "2024"
+description = "Paytm Checksum generator and verifier implemented in Rust"
+license = "MIT OR Apache-2.0"
+authors = ["G Vibu Vignesh <gviboognesh99@gmail.com>"]
+repository = "https://github.com/viboognesh/Paytm_Rust_Checksum"
+keywords = ["paytm", "checksum", "payment", "api", "crypto"]
+categories = ["api-bindings", "cryptography"]
+
+
+[dependencies]
+aes = "0.8.4"
+base64 = "0.22.1"
+block-modes = "0.9.1"
+cbc = "0.1.2"
+hex = "0.4.3"
+rand = "0.9.2"
+serde_json = "1.0.143"
+sha2 = "0.10.9"
